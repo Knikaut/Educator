@@ -21,6 +21,7 @@
     
     "types": ["node", "vite/client"]
   },
-  "include": ["src"],
+  /* ИЩЕМ ФАЙЛЫ ВЕЗДЕ, А НЕ ТОЛЬКО В SRC */
+  "include": ["./**/*.ts", "./**/*.tsx"],
   "exclude": ["node_modules"]
 }
